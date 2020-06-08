@@ -1,0 +1,53 @@
+\chapter{引言}\label{chap:introduction}
+
+\section{研究背景}
+
+
+\subsection{参考文献引用}
+
+参考文献引用过程以实例进行介绍，假设需要引用名为"Document Preparation System"的文献，步骤如下：
+
+1）使用Google Scholar搜索Document Preparation System，在目标条目下点击Cite，展开后选择Import into BibTeX打开此文章的BibTeX索引信息，将它们copy添加到ref.bib文件中（此文件位于Biblio文件夹下）。
+
+2）索引第一行 \verb|@article{lamport1986document,|中 \verb|lamport1986document| 即为此文献的label (\textbf{中文文献也必须使用英文label}，一般遵照：姓氏拼音+年份+标题第一字拼音的格式)，想要在论文中索引此文献，有两种索引类型：
+
+文本类型：\verb|\citet{lamport1986document}|。正如此处所示 \citet{lamport1986document}; 
+
+括号类型：\verb|\citep{lamport1986document}|。正如此处所示 \citep{lamport1986document}。
+
+\textbf{多文献索引用英文逗号隔开}：
+
+\verb|\citep{lamport1986document, chu2004tushu, chen2005zhulu}|。正如此处所示 \citep{lamport1986document, chu2004tushu, chen2005zhulu}
+
+更多例子如：
+
+\citet{walls2013drought} 根据 \citet{betts2005aging} 的研究，首次提出...。其中关于... \citep{walls2013drought, betts2005aging}，是当前中国...得到迅速发展的研究领域 \citep{chen1980zhongguo, bravo1990comparative}。引用同一著者在同一年份出版的多篇文献时，在出版年份之后用
+英文小写字母区别，如：\citep{yuan2012lana, yuan2012lanb, yuan2012lanc} 和 \citet{yuan2012lana, yuan2012lanb, yuan2012lanc}。同一处引用多篇文献时，按出版年份由近及远依次标注。例如 \citep{chen1980zhongguo, stamerjohanns2009mathml, hls2012jinji, niu2013zonghe}。
+
+使用著者-出版年制（authoryear）式参考文献样式时，中文文献必须在BibTeX索引信息的 \textbf{key} 域（请参考ref.bib文件）填写作者姓名的拼音，才能使得文献列表按照拼音排序。参考文献表中的条目（不排序号），先按语种分类排列，语种顺 序是：中文、日文、英文、俄文、其他文种。然后，中文按汉语拼音字母顺序排列，日文按第一著者的姓氏笔画排序，西文和 俄文按第一著者姓氏首字母顺序排列。如中 \citep{niu2013zonghe}、日 \citep{Bohan1928}、英 \citep{stamerjohanns2009mathml}、俄 \citep{Dubrovin1906}。
+
+如此，即完成了文献的索引，请查看下本文档的参考文献一章，看看是不是就是这么简单呢？是的，就是这么简单！
+
+不同文献样式和引用样式，如著者-出版年制（authoryear）、顺序编码制（numbers）、上标顺序编码制（super）可在Thesis.tex中对artratex.sty调用实现，详见 \href{https://github.com/mohuangrui/ucasthesis/wiki}{ucasthesis 知识小站之文献样式}
+
+%若在上标顺序编码制（super）模式下，希望在特定位置将上标改为嵌入式标，可使用 \citetns{niu2013zonghe,stamerjohanns2009mathml} 和 \citepns{niu2013zonghe,stamerjohanns2009mathml}。
+
+参考文献索引的更多知识，请见 \href{https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management}{WiKibook Bibliography}。\nocite{*}% 使文献列表显示所有参考文献（包括未引用文献）
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBb
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccc
+
+\section{dd}\label{sec:system}
+
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+
+\section{h}
+
+LLLLLLL
+
+MMMMMMM
+
