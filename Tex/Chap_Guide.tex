@@ -38,7 +38,7 @@ WRF(Weather Research and Forecasting Model) 模型目前广泛应用于科学研
 \begin{figure}[!htbp]
     \centering
     %trim option's parameter order: left bottom right top
-    \includegraphics[trim = 15mm 5mm 5mm 24mm, clip, width=0.40\textwidth]{wps_show_dom}
+    \includegraphics[trim = 15mm 5mm 5mm 24mm, clip, width=0.60\textwidth]{wps_show_dom}
     \bicaption{模拟区域}{Simulation Domain}
     \label{fig:wps_show_dom_trim}
 \end{figure}
@@ -52,25 +52,25 @@ WRF(Weather Research and Forecasting Model) 模型目前广泛应用于科学研
 
 \begin{figure}[!htbp]
     \centering
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[width=\textwidth]{up50_2015012000}
       \caption{}
       \label{fig:up50_2015012000}
     \end{subfigure}%
     ~% add desired spacing
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[width=\textwidth]{up50_2015012112}
       \caption{}
       \label{fig:up50_2015012112}
     \end{subfigure}
     \\% line break
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[width=\textwidth]{sfc3_2015012000}
       \caption{}
       \label{fig:sfc3_2015012000}
     \end{subfigure}%
     ~% add desired spacing
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[width=\textwidth]{sfc3_2015012112}
       \caption{}
       \label{fig:sfc3_2015012112}
@@ -86,52 +86,81 @@ WRF(Weather Research and Forecasting Model) 模型目前广泛应用于科学研
 \begin{figure}[!htbp]
     \centering
     %trim option's parameter order: left bottom right top
-    \includegraphics[trim = 5mm 0mm 0mm 0mm, clip, width=0.40\textwidth]{UW-plt_SkewT}
+    \includegraphics[trim = 5mm 0mm 0mm 0mm, clip, width=0.60\textwidth]{UW-plt_SkewT}
     \bicaption{南京站模拟的探空曲线}{Simulated sounding data curve in Nanjing station}
     \label{fig:UW-plt_SkewT_trim}
 \end{figure}
 
 \section{模拟结果评估}
 
-通过与实况资料对比，可以发现PM25，和PM10整体浓度变化趋势一致，PM10浓度较PM25高，在22日凌晨前后模拟与观测有较大误差。CO污染物浓度较低，模拟浓度和观测浓度接近。SO2浓度也在22日同观测有所偏差，NO2和O3浓度的模拟都与实况有着较高的一致性，且误差较小。
+通过与实况资料对比，可以发现$PM_{2.5}$，和$PM_{10}$整体浓度变化趋势一致，$PM_{10}$浓度较$PM_{2.5}$高，在22日凌晨前后模拟与观测有较大误差。CO污染物浓度较低，模拟浓度和观测浓度接近。$SO_{2}$浓度也在22日同观测有所偏差，$NO_{2}$和$O_{3}$浓度的模拟都与实况有着较高的一致性，且误差较小。
 
 \begin{figure}[!htbp]
     \centering
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{plot-obe-sim-pm25}
       \caption{}
       \label{fig:plot-obe-sim-pm25}
     \end{subfigure}%
     ~% add desired spacing
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{plot-obe-sim-pm10}
       \caption{}
       \label{fig:plot-obe-sim-pm10}
     \end{subfigure}
     \\% line break
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{plot-obe-sim-co}
       \caption{}
       \label{fig:plot-obe-sim-co}
     \end{subfigure}%
     ~% add desired spacing
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{plot-obe-sim-so2}
       \caption{}
       \label{fig:plot-obe-sim-so2}
     \end{subfigure}
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{plot-obe-sim-no2}
       \caption{}
       \label{fig:plot-obe-sim-no2}
     \end{subfigure}
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{plot-obe-sim-o3}
       \caption{}
       \label{fig:plot-obe-sim-o3}
     \end{subfigure}
-    \bicaption{模拟与观测的污染物浓度对比 (a) PM25浓度，(b) PM10浓度，(c) CO浓度，(d) SO2浓度，(e) NO2浓度，(f) O3浓度。}{(a) The concentration of PM25, (b) The concentration of PM10, (c) The concentration of CO, (d) The concentration of SO2, (e) The concentration of NO2, (f) The concentration of O3.}
+
+		\bicaption{模拟与观测的污染物浓度对比 (a) $PM_{2.5}$浓度，(b) $PM_{10}$浓度，(c) CO浓度，(d) $SO_{2}$浓度，(e) $NO_{2}$浓度，(f) $O_{3}$浓度。}{(a) The concentration of $PM_{2.5}$, (b) The concentration of $PM_{10}$, (c) The concentration of CO, (d) The concentration of $SO_{2}$, (e) The concentration of $NO_{2}$, (f) The concentration of $O_{3}$.}
+
     \label{fig:oaspl}
+\end{figure}
+
+\section{边界层高度}
+
+不同边界层参数化方案计算边界层高度的方法不一，MRF、YSU方案均通过临界理查逊数法确定边界层高度，通过统一算法计算区域平均边界层高度，其中g为重力加速度，$\theta$为位温，z为高度，u，v为风速的纬向和经向分量，通过计算某层的总体理查逊数大于或等于临界理查逊数即0.25时，通过线性插值，将此高度确定为边界层高度。总体理查逊数的公式为：
+
+\begin{equation}
+    \adddotsbeforeeqnnum%
+		R_{b} = \frac{\frac{g}{\overline{\theta}}\frac{\Delta \overline{\theta}}{\Delta z}}{(\frac{\Delta \overline{u}}{\Delta z})^2 + (\frac{\Delta \overline{v}}{\Delta z})^2}
+\end{equation}
+
+YSU方案定义边界层高度h为逆温层中湍流通量最低值所在高度，即：
+
+\begin{equation}
+    \adddotsbeforeeqnnum%
+		h = Rib_{cr} \frac{\theta_{va}|U(h)|^{2}}{g[\theta_{v}(h)-\theta_{s}]}
+\end{equation}
+
+选取江苏省区域来计算平均边界层高度
+
+
+\begin{figure}[!htbp]
+    \centering
+    %trim option's parameter order: left bottom right top
+    \includegraphics[trim = 2mm 10mm 0mm 10mm, clip, width=0.60\textwidth]{poly_ex}
+    \bicaption{平均边界层高度对应区域}{The region corresponding to the mean boundary layer height}
+		\label{fig:poly_ex}
 \end{figure}
 
 \section{边界层与污染物浓度关系}
@@ -140,42 +169,117 @@ WRF(Weather Research and Forecasting Model) 模型目前广泛应用于科学研
 
 \begin{figure}[!htbp]
     \centering
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{bjl_pm25}
       \caption{}
       \label{fig:bjl_pm25}
     \end{subfigure}%
     ~% add desired spacing
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{bjl_pm10}
       \caption{}
 			\label{fig:bjl_pm10}
     \end{subfigure}
     \\% line break
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{bjl_co}
       \caption{}
 			\label{fig:bjl_co}
     \end{subfigure}%
     ~% add desired spacing
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{bjl_so2}
       \caption{}
 			\label{fig:bjl_so2}
     \end{subfigure}
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{bjl_no2}
       \caption{}
 			\label{fig:bjl_no2}
     \end{subfigure}
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.40\textwidth}
       \includegraphics[trim = 20mm 120mm 30mm 50mm, clip, width=\textwidth]{bjl_o3}
       \caption{}
 			\label{fig:bjl_o3}
     \end{subfigure}
-		\bicaption{边界层高度与污染物浓度对比 (a) PM25浓度，(b) PM10浓度，(c) CO浓度, (d) SO2浓度, (e) NO2浓度，(f) O3浓度。}{Comparison between Boundary layer height and pollution concentration (a) The concentration of PM25, (b) The concentration of PM10, (c) The concentration of CO, (d) The concentration of SO2, (e) The concentration of NO2, (f) The concentration of O3.}
-    \label{fig:oaspl}
+		\bicaption{边界层高度与污染物浓度对比 (a) $PM_{2.5}$浓度，(b) $PM_{10}$浓度，(c) CO浓度, (d) $SO_{2}$浓度, (e) $NO_{2}$浓度，(f) $O_{3}$浓度。}{Comparison between Boundary layer height and pollution concentration (a) The concentration of $PM_{2.5}$, (b) The concentration of $PM_{10}$, (c) The concentration of CO, (d) The concentration of $SO_{2}$, (e) The concentration of $NO_{2}$, (f) The concentration of $O_{3}$.}
+		\label{fig:oaspl}
 \end{figure}
 
 
+\section{$PM_{2.5}$水平分布特征}
+
+根据$PM_{2.5}$浓度水平分布可以分析得污染物整体跟随天气配置槽线位置移动，$PM_{2.5}$污染物源自河南河北地区，21日07时跟随风场移动扩散迁移至江苏地区且浓度达到极大值，随后污染物东移入海减弱消散。
+
+\begin{figure}[!htbp]
+	\centering
+	\begin{subfigure}[b]{0.40\textwidth}
+		\includegraphics[width=\textwidth]{wrf_pm25_vec_000008}
+		\caption{}
+		\label{fig:wrf_pm25_vec_000008}
+	\end{subfigure}%
+	~% add desired spacing
+	\begin{subfigure}[b]{0.40\textwidth}
+		\includegraphics[width=\textwidth]{wrf_pm25_vec_000032}
+		\caption{}
+		\label{fig:wrf_pm25_vec_000032}
+	\end{subfigure}
+	\\% line break
+	\begin{subfigure}[b]{0.40\textwidth}
+		\includegraphics[width=\textwidth]{wrf_pm25_vec_000056}
+		\caption{}
+		\label{fig:wrf_pm25_vec_000032}
+	\end{subfigure}
+	~% add desired spacing
+	\begin{subfigure}[b]{0.40\textwidth}
+		\includegraphics[width=\textwidth]{wrf_pm25_vec_000080}
+		\caption{}
+		\label{fig:wrf_pm25_vec_000032}
+	\end{subfigure}
+	\bicaption{地面$PM_{2.5}$浓度叠加风场图(a) 1月20日07时500，(b) 1月21日07时，(c) 1月21日07时，(d) 1月22日07时。}{Surface $PM_{2.5}$ concentration superimposed wind field map (a) 07 a.m. on 20 January, (b) 07 a.m. on 21 January, (c) 07 a.m. on 22 January, (d) 07 a.m. on 23 January.}
+	\label{fig:oaspl}
+\end{figure}
+
+\section{$PM_{2.5}$垂直分布特征}
+
+沿着经度线$118.907^\circE$做从$31.0^\circN$至$34.0^\circN$的剖面，从剖面图分析可发现20日00是高空收槽前西南气流，同地面低压前部偏南气流控制，整体污染物层结分布明显，随着高度污染物浓度逐渐减小，随着太阳升起日照作用下污染物逐渐向上扩散使得高层污染物浓度增加。18时受到风场带来的西北方向的近地面$PM_{2.5}$污染物使得低层污染物浓度增高，原本污染高值区被迫抬升，形成对流热泡状，且高低层风向相反，存在大的垂直风切变，动力不稳定有利于污染物向高空垂直方向的扩散。21日00时槽线过境，污染物扩散至3km以上，06时受到槽后西北气流和地面高压前部的偏北气流，使得整个层结收到偏北风影响，有利于污染累计。最终污染物随西南风向西向南移动，离开剖面区域。
+
+\begin{figure}[!htbp]
+	\centering
+	\begin{subfigure}[b]{0.35\textwidth}
+		\includegraphics[width=\textwidth]{pm25_01}
+		\caption{}
+		\label{fig:pm25_01}
+	\end{subfigure}%
+	~% add desired spacing
+	\begin{subfigure}[b]{0.35\textwidth}
+		\includegraphics[width=\textwidth]{pm25_13}
+		\caption{}
+		\label{fig:pm25_13}
+	\end{subfigure}%
+	\begin{subfigure}[b]{0.35\textwidth}
+		\includegraphics[width=\textwidth]{pm25_19}
+		\caption{}
+		\label{fig:pm25_19}
+	\end{subfigure}%
+	~% add desired spacing
+	\\% line break
+	\begin{subfigure}[b]{0.35\textwidth}
+		\includegraphics[width=\textwidth]{pm25_25}
+		\caption{}
+		\label{fig:pm25_25}
+	\end{subfigure}%
+	\begin{subfigure}[b]{0.35\textwidth}
+		\includegraphics[width=\textwidth]{pm25_31}
+		\caption{}
+		\label{fig:pm25_31}
+	\end{subfigure}%
+	\begin{subfigure}[b]{0.35\textwidth}
+		\includegraphics[width=\textwidth]{pm25_43}
+		\caption{}
+		\label{fig:pm25_43}
+	\end{subfigure}%
+	\bicaption{$PM_{2.5}$浓度剖面图 (a) 1月20日07时500，(b) 1月21日07时，(c) 1月21日07时，(d) 1月22日07时。}{Surface $PM_{2.5}$ concentration superimposed wind field map (a) 07 a.m. on 20 January, (b) 07 a.m. on 21 January, (c) 07 a.m. on 22 January, (d) 07 a.m. on 23 January.}
+	\label{fig:oaspl}
+\end{figure}
 

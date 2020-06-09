@@ -2,55 +2,51 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
 The style file: Biblio/gbt7714-plain.bst
-Multiple inclusions of entire database
----line 119 of file Thesis.aux
- : \citation{*
- :            }
-I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
 Database file #1: Biblio/ref.bib
 Warning--empty key in 张颖龙2017基于
 Warning--empty key in 王瑾2017基于
-You've used 18 entries,
+Warning--empty key in 唐洁2019三种
+You've used 3 entries,
             4429 wiz_defined-function locations,
-            1034 strings with 9501 characters,
-and the built_in function-call counts, 56062 in all, are:
-= -- 1370
-> -- 5386
-< -- 7980
-+ -- 2637
-- -- 163
-* -- 646
-:= -- 8219
-add.period$ -- 58
-call.type$ -- 18
-change.case$ -- 81
-chr.to.int$ -- 2295
-cite$ -- 38
-duplicate$ -- 399
-empty$ -- 1022
-format.name$ -- 223
-if$ -- 14285
-int.to.chr$ -- 3
+            930 strings with 6977 characters,
+and the built_in function-call counts, 5442 in all, are:
+= -- 174
+> -- 375
+< -- 722
++ -- 296
+- -- 15
+* -- 62
+:= -- 855
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 9
+chr.to.int$ -- 245
+cite$ -- 9
+duplicate$ -- 66
+empty$ -- 172
+format.name$ -- 21
+if$ -- 1394
+int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 104
-num.names$ -- 83
-pop$ -- 2135
+newline$ -- 24
+num.names$ -- 15
+pop$ -- 64
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 9
 quote$ -- 0
-skip$ -- 5140
+skip$ -- 476
 stack$ -- 0
-substring$ -- 2795
-swap$ -- 21
-text.length$ -- 139
+substring$ -- 284
+swap$ -- 0
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 266
-warning$ -- 2
-while$ -- 208
+type$ -- 45
+warning$ -- 3
+while$ -- 27
 width$ -- 0
-write$ -- 281
-(There was 1 error message)
+write$ -- 47
+(There were 3 warnings)

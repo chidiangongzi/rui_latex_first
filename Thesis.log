@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2019.11.15)  8 JUN 2020 09:09
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2019.11.15)  9 JUN 2020 11:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1806,6 +1806,24 @@ LaTeX Warning: Label `fig:oaspl' multiply defined.
 
 LaTeX Warning: Label `fig:oaspl' multiply defined.
 
+
+LaTeX Warning: Label `fig:wrf_pm25_vec_000032' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:wrf_pm25_vec_000032' multiply defined.
+
+
+LaTeX Warning: Label `fig:wrf_pm25_vec_000032' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:wrf_pm25_vec_000032' multiply defined.
+
+
+LaTeX Warning: Label `fig:oaspl' multiply defined.
+
+
+LaTeX Warning: Label `fig:oaspl' multiply defined.
+
 )
 \openout1 = `Thesis.aux'.
 
@@ -1921,20 +1939,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 14.05249pt
 (hyperref)                replaced by space on input line 16.
 
-
-Overfull \hbox (921.03368pt too wide) in paragraph at lines 20--21
-[]\TU/entextrm/m/n/12.045 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa\TU/FandolSong-Regular(0)/m/n/12.045 。| 
- []
-
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 12.04628pt on input line 22.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 9.03471pt on input line 22.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 7.22777pt on input line 22.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 12.0437pt on input line 22.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 9.03278pt on input line 22.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 7.22623pt on input line 22.
 [1
 
 
-]
-Overfull \hbox (857.25542pt too wide) in paragraph at lines 28--29
-[]\TU/entextrm/m/n/12.045 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBbbb. 
- []
-
-) [2
+]) [2
 
 ]
 
@@ -1942,20 +1962,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.045pt
 (hyperref)                replaced by space on input line 63.
 
-(./Thesis.toc
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 12.04628pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 9.03471pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.22777pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 12.0437pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 9.03278pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 7.22623pt on input line 2.
-)
+(./Thesis.toc)
 \tf@toc=\write5
 \openout5 = `Thesis.toc'.
 
@@ -1971,38 +1978,12 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 
 ] (./Tex/Prematter.tex) (./Tex/Mainmatter.tex (./Tex/Chap_Intro.tex
 第1章
-
-Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-
-Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
-(fontspec)             'FandolFang-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolFang-Regular.otf]/OT"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-[1
+) (./Tex/Chap_Guide.tex [1
 
 
 
 ]
-Overfull \hbox (53.23724pt too wide) in paragraph at lines 49--64
- [] 
- []
-
-) (./Tex/Chap_Guide.tex [2]
 第2章
-
-Overfull \hbox (4.21446pt too wide) in paragraph at lines 10--11
-\TU/entexttt/m/n/12.045 land-surface model \TU/FandolSong-Regular(0)/m/n/12.045 方 案，|  近 地 面 层 和 边 界 层 分 别 采 用 \TU/entexttt/m/n/12.045 YSU \TU/FandolSong-Regular(0)/m/n/12.045 方 案 和 \TU/entexttt/m/n/12.045 Noah land-surface
- []
-
 
 Overfull \hbox (53.23724pt too wide) in paragraph at lines 17--32
  [] 
@@ -2017,12 +1998,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[3
+[2
 
 ]
 File: Img/wps_show_dom.png Graphic file (type bmp)
 <Img/wps_show_dom.png>
- [4]
+ [3]
 第3章
 File: Img/up50_2015012000.png Graphic file (type bmp)
 <Img/up50_2015012000.png>
@@ -2032,7 +2013,7 @@ File: Img/sfc3_2015012000.png Graphic file (type bmp)
 <Img/sfc3_2015012000.png>
 File: Img/sfc3_2015012112.png Graphic file (type bmp)
 <Img/sfc3_2015012112.png>
-[5
+[4
 
 ]
 File: Img/UW-plt_SkewT.png Graphic file (type bmp)
@@ -2049,7 +2030,18 @@ File: Img/plot-obe-sim-no2.png Graphic file (type bmp)
 <Img/plot-obe-sim-no2.png>
 File: Img/plot-obe-sim-o3.png Graphic file (type bmp)
 <Img/plot-obe-sim-o3.png>
- [6] [7]
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 134.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 134.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 134.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 134.
+ [5] [6]
+File: Img/poly_ex.png Graphic file (type bmp)
+<Img/poly_ex.png>
+ [7]
 File: Img/bjl_pm25.png Graphic file (type bmp)
 <Img/bjl_pm25.png>
 File: Img/bjl_pm10.png Graphic file (type bmp)
@@ -2062,25 +2054,158 @@ File: Img/bjl_no2.png Graphic file (type bmp)
 <Img/bjl_no2.png>
 File: Img/bjl_o3.png Graphic file (type bmp)
 <Img/bjl_o3.png>
-)) [8] (./Thesis.bbl
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 112.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 112.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 112.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 112.
-) (./Tex/Backmatter.tex [9
 
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 210.
 
-]
-Overfull \hbox (7.1275pt too wide) in paragraph at lines 11--12
-\TU/FandolSong-Regular(0)/m/n/12.045 云 云 老 师 为 代 表 的 国 科 大 学 位 办 公 室 老 师 们 制 定 的 官 方 指 导 文 件 和 众 多 \TU/entexttt/m/n/12.045 ucasthesis
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 210.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 210.
+
+File: Img/wrf_pm25_vec_000008.png Graphic file (type bmp)
+<Img/wrf_pm25_vec_000008.png>
+File: Img/wrf_pm25_vec_000032.png Graphic file (type bmp)
+<Img/wrf_pm25_vec_000032.png>
+File: Img/wrf_pm25_vec_000056.png Graphic file (type bmp)
+<Img/wrf_pm25_vec_000056.png>
+File: Img/wrf_pm25_vec_000080.png Graphic file (type bmp)
+<Img/wrf_pm25_vec_000080.png>
+[8]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 243.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 243.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 243.
+
+./Tex/Chap_Guide.tex:245: Undefined control sequence.
+l.245 沿着经度线$118.907^\circE
+                          $做从$31.0^\circN$至$34.0^\circN$的剖面，从剖面图分析可发现20日00是高...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_Guide.tex:245: Missing { inserted.
+<to be read again> 
+                   $
+l.245 沿着经度线$118.907^\circE$
+                           做从$31.0^\circN$至$34.0^\circN$的剖面，从剖面图分析可发现20日00是高...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./Tex/Chap_Guide.tex:245: Missing } inserted.
+<inserted text> 
+                }
+l.245 沿着经度线$118.907^\circE$
+                           做从$31.0^\circN$至$34.0^\circN$的剖面，从剖面图分析可发现20日00是高...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Tex/Chap_Guide.tex:245: Undefined control sequence.
+l.245 沿着经度线$118.907^\circE$做从$31.0^\circN
+                                         $至$34.0^\circN$的剖面，从剖面图分析可发现20日00是高...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_Guide.tex:245: Missing { inserted.
+<to be read again> 
+                   $
+l.245 沿着经度线$118.907^\circE$做从$31.0^\circN$
+                                          至$34.0^\circN$的剖面，从剖面图分析可发现20日00是高...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./Tex/Chap_Guide.tex:245: Missing } inserted.
+<inserted text> 
+                }
+l.245 沿着经度线$118.907^\circE$做从$31.0^\circN$
+                                          至$34.0^\circN$的剖面，从剖面图分析可发现20日00是高...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Tex/Chap_Guide.tex:245: Undefined control sequence.
+l.245 ...8.907^\circE$做从$31.0^\circN$至$34.0^\circN
+                                                  $的剖面，从剖面图分析可发现20日00是高空收槽前西...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_Guide.tex:245: Missing { inserted.
+<to be read again> 
+                   $
+l.245 ....907^\circE$做从$31.0^\circN$至$34.0^\circN$
+                                                  的剖面，从剖面图分析可发现20日00是高空收槽前西南...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./Tex/Chap_Guide.tex:245: Missing } inserted.
+<inserted text> 
+                }
+l.245 ....907^\circE$做从$31.0^\circN$至$34.0^\circN$
+                                                  的剖面，从剖面图分析可发现20日00是高空收槽前西南...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[9]
+File: Img/pm25_01.png Graphic file (type bmp)
+<Img/pm25_01.png>
+File: Img/pm25_13.png Graphic file (type bmp)
+<Img/pm25_13.png>
+File: Img/pm25_19.png Graphic file (type bmp)
+<Img/pm25_19.png>
+
+Overfull \hbox (22.871pt too wide) in paragraph at lines 249--266
+ [][] [][] 
  []
 
-[10
+File: Img/pm25_25.png Graphic file (type bmp)
+<Img/pm25_25.png>
+File: Img/pm25_31.png Graphic file (type bmp)
+<Img/pm25_31.png>
+File: Img/pm25_43.png Graphic file (type bmp)
+<Img/pm25_43.png>
+
+Overfull \hbox (20.8635pt too wide) in paragraph at lines 267--282
+ [][][][] 
+ []
+
+)) [10] (./Thesis.bbl) (./Tex/Backmatter.tex [11
+
+
+
+] [12
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
@@ -2088,26 +2213,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
  (./Thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: D276E3B8D707F625F22C4A99F2E132F2.
 
-
-Package rerunfilecheck Warning: File `Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: 0D4F6F43A0C5D2D61057B9D17891A46A
-(rerunfilecheck)             After:  6550E347F3D0F873498707F3113E663C.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 46369 strings out of 492922
- 914503 string characters out of 6138850
- 1100495 words of memory out of 5000000
- 49791 multiletter control sequences out of 15000+600000
- 540849 words of font info for 122 fonts, out of 8000000 for 9000
+ 46318 strings out of 492922
+ 910232 string characters out of 6138850
+ 1098400 words of memory out of 5000000
+ 49744 multiletter control sequences out of 15000+600000
+ 540825 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,11n,113p,916b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,11n,113p,1018b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (16 pages).
+Output written on Thesis.pdf (18 pages).
